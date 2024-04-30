@@ -36,7 +36,7 @@ startBtn.addEventListener('click', () => {
 function updateWatch() {
     sec.innerHTML++;
     sec.innerHTML = String(sec.innerHTML).padStart(2, '0');
-    if (sec.innerHTML >= 59) {
+    if (sec.innerHTML > 59) {
         sec.innerHTML = 00;
         min.innerHTML++;
         min.innerHTML = String(min.innerHTML).padStart(2, '0');
