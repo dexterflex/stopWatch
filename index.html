@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sw.css">
+    <script src="sw.js" defer></script>
+</head>
+
+<body>
+    <!-- container  -->
+    <div class="container">
+        <!-- timer  -->
+        <div class="timer p-20">   
+                <div class="minutes">00</div>
+                <span>:</span>
+                <div class="seconds">00</div>
+        </div>
+        <!-- control buttons  -->
+        <div class="buttons p-20">
+            <button id="reset">reset</button>
+            <button id="start">start</button>
+            <button disabled id="mark">mark</button>
+        </div>
+        <!-- display marked times  -->
+        <div class="marked-time p-20"></div>
+    </div>
+</body>
+
+</html>
