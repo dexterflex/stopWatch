@@ -22,7 +22,7 @@ This is a simple stopwatch web application built using HTML, CSS, and JavaScript
 
 ## Demo
 
-[Include a GIF or screenshot demonstrating how the stopwatch works.]
+
 
 ## Contributing
 
@@ -30,4 +30,4 @@ Contributions are welcome! If you find any bugs or want to suggest improvements,
 
 ## License
 
-[Include the license under which your project is distributed.]
+
